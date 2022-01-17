@@ -1,0 +1,69 @@
+<html>
+    <title>Profile</title>
+    <link rel="stylesheet" href="Profile.css">
+    <body>
+        <nav class="navbar">
+            <ul>
+                <li><a href="Home.html">HOME</a></li>
+                <li><a href="Profile.html">PROFILE</a></li>
+                <li><a href="Family.html">FAMILY</a></li>
+                <li><a href="Education.html">EDUCATION</a></li>
+                <li><a href="Experience.html">EXPERIENCE</a></li>
+                <li><a href="Gallery.html">GALLERY</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
+
+<script>
+
+var mybutton = document.getElementById("myBtn");
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+<section class="Home" id="Home">
+  <div class="max-width">
+      <div class="Home-content">
+          <div class="text-1">Hey pals! Welcome and this is</div>
+          <div class="text-2">GET TO KNOW <br> AIMI IRFAN!</div>
+      </div>
+      <a href="#Profile" class="btn">LET'S JUMP STRAIGHT TO IT!</a>
+  </div>
+  <image class="Home_img" src="images/E.png">
+</section>
+
+<section class="Profile" id="Profile">
+  <hr class="new5">
+<h1 class="heading">PROFILE</h1>
+<div class="max-width">
+  <div class="Profile-content">
+      <div class="text-3">My Name is Aimi Irfan Bin Aminin.<br>I was born on 14 January 2000.<br>I am now 22 years old.<br>People often call me Irfan or Fynn.<br>Fynn is my in-game name so people<br>who know me by the game I played<br>with them will call me by that name.<br></div>
+      <div class="text-4">I was born at Hospital Tengku Ampuan Rahimah, Klang.<br>I've been raised by my grandparents while I was kid<br>at Negeri Sembilan and when I was 10 years old<br>I moved back and live with my mother and brother. </div>
+      <image class="Profile-img-1" src="images/2.png">
+        <image class="Profile-img-2" src="images/1.png">
+        <hr class="new1">
+        <hr class="new2">
+      
+    </div>
+</div>
+</section>
+
+    </body>
+</html>
